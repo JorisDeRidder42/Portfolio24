@@ -3,9 +3,9 @@ import anime from 'animejs';
 
 const Home = () => {
   return (
-    <div class="container mx-auto px-4">
-        <div class="flex flex-wrap -mx-4">
-            <div class="w-full sm:w-1/2 md:w-1/2 px-4">
+    <div className="container mx-auto px-4">
+        <div className="flex flex-wrap -mx-4">
+            <div className="w-full sm:w-1/2 md:w-1/2 px-4">
                 <div className="container">
                     <h1 className="text-white text-6xl font-bold mb-6">Ik ontwerp applicaties voor het web</h1>
                     <p className="text-white text-2xl">Ik ben een front-end ontwikkelaar met een passie voor het creëren van visueel aantrekkelijke websites en gebruiksvriendelijke interfaces.</p>
@@ -14,7 +14,7 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/2 px-4">
+            <div className="w-full sm:w-1/2 md:w-1/2 px-4">
                 <DotGrid/>
             </div>
         </div>
