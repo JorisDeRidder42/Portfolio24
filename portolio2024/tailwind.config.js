@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",],
+    "./src/**/*.{js,ts,jsx,tsx,react}",],
     theme: {
       container: {
         padding: {
@@ -12,7 +12,8 @@ export default {
           '2xl': '6rem',
         },
       },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
